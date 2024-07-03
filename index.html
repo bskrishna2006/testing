@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz">
+        <h2>Quiz: Programming Languages</h2>
+        <form id="quizForm" action="submit.php" method="post">
+            <h3>Question 1: What does HTML stand for?</h3>
+            <label><input type="radio" name="q1" value="a"> Hyper Text Markup Language</label><br>
+            <label><input type="radio" name="q1" value="b"> High Tension Marking Language</label><br>
+            <label><input type="radio" name="q1" value="c"> Hyperlinks and Text Markup Language</label><br>
+            <br>
+            
+            <h3>Question 2: What is CSS used for?</h3>
+            <label><input type="radio" name="q2" value="a"> Styling web pages</label><br>
+            <label><input type="radio" name="q2" value="b"> Server-side scripting</label><br>
+            <label><input type="radio" name="q2" value="c"> Database management</label><br>
+            <br>
+            
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
